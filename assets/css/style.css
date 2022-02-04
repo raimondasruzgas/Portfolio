@@ -1036,11 +1036,14 @@ section {
   margin: 0 2px;
 }
 .team .member .member-info h4 {
+  text-align: justify;
+  text-justify: inter-word;
   font-weight: 700;
   margin: 15px 0 5px 0;
   font-size: 18px;
 }
 .team .member .member-info span {
+  
   display: block;
   font-size: 13px;
   text-transform: uppercase;
@@ -1048,7 +1051,9 @@ section {
   margin-bottom: 15px;
   color: #7cc576;
 }
-.team .member .member-info p {
+.team .member .member-info h6 {
+  text-align: justify;
+  text-justify: inter-word;
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
